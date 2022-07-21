@@ -23,7 +23,7 @@ ResultSet resultSet = null;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Login to Get Details</title>
+<title>Login to Getty Details</title>
 <style>
     body {
       background-image: url('https://i.pinimg.com/originals/a6/1a/b6/a61ab69461c264dac81d3a12dfebd9ac.jpg');
