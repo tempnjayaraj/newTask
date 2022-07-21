@@ -22,12 +22,8 @@ ResultSet resultSet = null;
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD
-<title>Login to Get Details</title>
-=======
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><<<<<<< HEAD
 <title>Login to Getty Details</title>
->>>>>>> 655c59c13825f34b86c991cd791ed2d0b3671359
 <style>
     body {
       background-image: url('https://i.pinimg.com/originals/a6/1a/b6/a61ab69461c264dac81d3a12dfebd9ac.jpg');
