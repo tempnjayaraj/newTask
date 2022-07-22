@@ -5,11 +5,10 @@ pageEncoding="UTF-8"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.Connection"%>
 <%
-String driver = "com.mysql.cj.jdbc.Driver";
-String connectionUrl = "jdbc:mysql://localhost:3306/";
-String database = "archi";
+String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+String connectionUrl = "jdbc:sqlserver://localhost\\MSSQLSERVER;Database=Ronald;portNumber=1433";
 String userid = "root";
-String password = "Prkstr@9112";
+String password = "root";
 try {
 Class.forName(driver);
 } catch (ClassNotFoundException e) {
@@ -51,7 +50,7 @@ ResultSet resultSet = null;
 
 <%
 try{
-connection = DriverManager.getConnection(connectionUrl+database, userid, password);
+connection = DriverManager.getConnection(connectionUrl, userid, password);
 statement=connection.createStatement();
 String sql ="select username from users";
 resultSet = statement.executeQuery(sql);
