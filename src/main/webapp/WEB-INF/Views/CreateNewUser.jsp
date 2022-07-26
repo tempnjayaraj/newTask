@@ -16,7 +16,7 @@ body {
 <body>
     <blockquote>
         <h1>Create New User</h1>
-    <form action="/create" method="POST" autocomplete="off">
+    <form action="create" method="POST" autocomplete="off">
         Username: <input type="text" name="username"/><br><br>
         Email: <input type="email" name="email"/><br><br>
         Phone: <input type="text" name="phone"/><br><br>

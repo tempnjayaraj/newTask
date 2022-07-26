@@ -8,9 +8,4 @@
     <welcome-file-list>
         <welcome-file>login</welcome-file>
     </welcome-file-list>
-    <servlet>
-        <servlet-name>Create</servlet-name>
-        <servlet-class>webapp.CreateUser</servlet-class>
-        <url-pattern>/create</url-pattern>
-    </servlet>
 </web-app>
