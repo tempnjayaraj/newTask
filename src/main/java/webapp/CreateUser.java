@@ -31,7 +31,7 @@ public class CreateUser extends HttpServlet {
         String address = request.getParameter("address");
         String password = request.getParameter("password");
 
-        final String DB_URL = "jdbc:sqlserver://localhost\\MSSQLSERVER;Database=Ronald;portNumber=1433";
+        final String DB_URL = "jdbc:sqlserver://localhost;portNumber=1433";
         final String USER = "sa";
         final String PASS = "Ronald@123";
         // JDBC driver name and database URL
