@@ -25,7 +25,7 @@ ResultSet resultSet = null;
 <title>Login to GetYour Details</title>
 <style>
     body {
-      background-image: url('https://i.pinimg.com/originals/a6/1a/b6/a61ab69461c264dac81d3a12dfebd9ac.jpg');
+      background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
