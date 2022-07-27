@@ -22,7 +22,7 @@ ResultSet resultSet = null;
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Login to GetYour Details</title>
+<title>Login to Get Details</title>
 <style>
     body {
       background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
