@@ -31,8 +31,8 @@ public class CreateUser extends HttpServlet {
         String address = request.getParameter("address");
         String password = request.getParameter("password");
 
-        final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=ronald;integratedSecurity=true;";
-        final String USER = "SA";
+        final String DB_URL = "jdbc:sqlserver://18.139.108.88:1433;databaseName=ronald;integratedSecurity=true;";
+        final String USER = "sa";
         final String PASS = "Ronald@123";
         // JDBC driver name and database URL
 //		      final String DB_URL="jdbc:mysql://localhost:3306/archi?autoReconnect=true&useSSL=false";
