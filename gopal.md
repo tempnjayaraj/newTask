@@ -5,3 +5,7 @@ Hello World
 ## Hello
 
 ### HEllo
+
+``` bash
+sudo apt-get install jenkins
+```
